@@ -15,10 +15,10 @@ window.onload = () => {
       fetch(dataSrc)
         .then(function (response) {
           return response.text()
-            .then(function (html) {
-              console.log(html)
-              divMyResponse.innerHTML = html
-            })
+        .then(function (html) {
+          console.log(html)
+          divMyResponse.innerHTML = html
+        })
       })
     }
   });
